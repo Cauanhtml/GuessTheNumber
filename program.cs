@@ -85,11 +85,22 @@ namespace RandomNumber
                         if (response < number)
                         {
                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("Sua resposta está ");
+                            Console.Write("O Numero Digitado é ");
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("abaixo ");
+                            Console.Write("Menor ");
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("do numero Desejado");
+                            Console.Write("que o numero Correto");
+
+                            if (number % 2 == 0)
+                            {
+                                Console.Write(" e o número correto é par.");
+                            }
+                            else
+                            {
+                                Console.Write(" e o número correto é ímpar.");
+                            }
+
+
                             Console.WriteLine("");
                             chances--;
                             
@@ -97,11 +108,21 @@ namespace RandomNumber
                         else if (response > number)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("Sua resposta está ");
+                            Console.Write("O Numero digitado é ");
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("acima ");
+                            Console.Write("maior ");
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("do numero Desejado");
+                            Console.Write("que o numero Correto");
+
+                            if (number % 2 == 0)
+                            {
+                                Console.Write(" e o número correto é par.");
+                            }
+                            else
+                            {
+                                Console.Write(" e o número correto é ímpar.");
+                            }
+
                             Console.WriteLine("");
                             chances--;
                         }
@@ -129,6 +150,9 @@ namespace RandomNumber
                         Thread.Sleep(200);
                         break; // Sai do loop externo quando o usuário inserir um número válido
                     }
+
+
+                
 
                     
 
@@ -191,11 +215,22 @@ namespace RandomNumber
                         if (response < number)
                         {
                            Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("Your answer is ");
+                            Console.Write("The number entered is ");
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("down ");
+                            Console.Write("smaller ");
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("of the Desired number");
+                            Console.Write("than the correct number");
+
+                             if (number % 2 == 0)
+                            {
+                                Console.Write(" and the correct number is even.");
+                            }
+                            else
+                            {
+                                Console.Write(" and the correct number is odd.");
+                            }
+
+
                             Console.WriteLine("");
                             chances--;
                             
@@ -203,11 +238,20 @@ namespace RandomNumber
                         else if (response > number)
                         {
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("Your answer is ");
+                            Console.Write("The number entered is ");
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                            Console.Write("above ");
+                            Console.Write("greater ");
                             Console.ForegroundColor = ConsoleColor.Red;
-                            Console.Write("the Desired number");
+                            Console.Write("than the correct number");
+
+                               if (number % 2 == 0)
+                            {
+                                Console.Write(" and the correct number is even.");
+                            }
+                            else
+                            {
+                                Console.Write(" and the correct number is odd.");
+                            }
                             Console.WriteLine("");
                             chances--;
                         }
