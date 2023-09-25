@@ -1,0 +1,15 @@
+D:\cauan\Random Number\bin\Debug\net7.0\Random Number.exe
+D:\cauan\Random Number\bin\Debug\net7.0\Random Number.deps.json
+D:\cauan\Random Number\bin\Debug\net7.0\Random Number.runtimeconfig.json
+D:\cauan\Random Number\bin\Debug\net7.0\Random Number.dll
+D:\cauan\Random Number\bin\Debug\net7.0\Random Number.pdb
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.csproj.AssemblyReference.cache
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.GeneratedMSBuildEditorConfig.editorconfig
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.AssemblyInfoInputs.cache
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.AssemblyInfo.cs
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.csproj.CoreCompileInputs.cache
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.dll
+D:\cauan\Random Number\obj\Debug\net7.0\refint\Random Number.dll
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.pdb
+D:\cauan\Random Number\obj\Debug\net7.0\Random Number.genruntimeconfig.cache
+D:\cauan\Random Number\obj\Debug\net7.0\ref\Random Number.dll
