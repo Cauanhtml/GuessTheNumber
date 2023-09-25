@@ -1,0 +1,17 @@
+				
+				HOW TO PLAY THIS GAME
+
+
+
+1.Open GuessTheNumber.exe
+
+2.Choose the language to use
+
+3.Enter a number from 10 to 30 , if you miss the number,A message will appear informing a hint of where the number is
+
+It's very simple, play and try to hit the number, have fun XD
+
+
+Created By Cpriany
+
+in visual studio code C#

@@ -13,21 +13,23 @@ namespace RandomNumber
             Console.WriteLine("Hello Player");
             Console.WriteLine("-------------------------------");
 
-            Thread.Sleep(1000);
+
+            
+            Thread.Sleep(4000);
             while(true)
             {
             Console.Clear();
         
             Console.Write("BR or ENGLISH? ");
 
-            string Response = Console.ReadLine()?.ToUpper() ?? "";
+            string Response = Console.ReadLine() ?? "";
 
-            if(Response == "BR" || Response == "Portugues")
+            if(Response == "br" || Response == "portugues" || Response == "BR" || Response == "Portugues" || Response == "PORTUGUES" || Response == "Portuguese" || Response == "portuguese")
             {
                 Game.GameRandomPortuguese();
                 break;
             }
-            else if (Response == "EN" || Response == "English" || Response == "ingles")
+            else if (Response == "en" || Response == "english" || Response == "ingles" || Response == "English" || Response == "ENGLISH")
             {
                 Game.GameRandomEnglish();
                 break;
@@ -36,7 +38,7 @@ namespace RandomNumber
             
                 else
                 {
-                    Console.WriteLine("Enter BR / Portuguese or EN / English ");
+                    Console.WriteLine("Enter br / portugues / Portuguese // en / english / ingles / English ");
                     Console.ReadKey();
                 }
                 
@@ -66,7 +68,7 @@ namespace RandomNumber
              Thread.Sleep(250);
                 try
                 {
-                    number = random.Next(1, 31); // Gera o número aleatório
+                    number = random.Next(10, 30); // Gera o número aleatório
                     do
                     {
                         
@@ -76,7 +78,7 @@ namespace RandomNumber
                         Console.Write("{0}",chances);
                         Console.WriteLine("\n");
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.Write("Adivinhe um número de 1 a 30: ");
+                        Console.Write("Adivinhe um número de 10 a 30: ");
                         Console.ForegroundColor = ConsoleColor.Blue;
                         response = Convert.ToInt32(Console.ReadLine());
                         Console.Clear();
@@ -134,9 +136,11 @@ namespace RandomNumber
                 }
                 catch (FormatException)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Apenas números válidos são permitidos. Tente novamente.");
                     Thread.Sleep(250);
                     Console.WriteLine("");
+                    Console.ResetColor();
                     Console.ReadKey();
                     Console.Clear();
                 }
@@ -170,7 +174,7 @@ namespace RandomNumber
              Thread.Sleep(250);
                 try
                 {
-                    number = random.Next(1, 31); // Generates the random number
+                      number = random.Next(10, 30); // Generates the random number
                     do
                     {
                         
@@ -180,7 +184,7 @@ namespace RandomNumber
                         Console.Write("{0}",chances);
                         Console.WriteLine("\n");
                         Console.ForegroundColor = ConsoleColor.Cyan;
-                        Console.Write("Guess a number from 1 to 30: ");
+                        Console.Write("Guess a number from 10 to 30: ");
                         Console.ForegroundColor = ConsoleColor.Blue;
                         response = Convert.ToInt32(Console.ReadLine());
                         Console.Clear();
@@ -237,9 +241,11 @@ namespace RandomNumber
                 }
                 catch (FormatException)
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Only valid numbers are allowed. Please try again.");
                     Thread.Sleep(250);
                     Console.WriteLine("");
+                    Console.ResetColor();
                     Console.ReadKey();
                     Console.Clear();
                     
